@@ -1,9 +1,9 @@
 header {
-    font-family: "Bauhaus 93";
+    font-family: "Bauhaus 93", "sans-serif";
 }
 
 nav a{
-    font-family: "Berlin Sans FB";
+    font-family: "Berlin Sans FB", "sans-serif";
     font-size: 18px;
     padding: 5px 15px;
 }
