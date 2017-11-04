@@ -1,11 +1,165 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #CCC;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 1500px;
+    width: 70%;
+    text-align: left;
+    margin: 0 auto;
+}
+
 header {
     font-family: "Bauhaus 93", "sans-serif";
+    height: 64px;
+    background-color: #0B3C5D;
+    padding: 20px;
 }
+
+header * {
+    display: inline;
+    margin: 0 auto;
+    vertical-align: middle;
+}
+
+header h1 {
+    color: #D9B310;
+}
+
+
+#leftNewsPanel {
+    width: 300px;
+    height: 800px;
+    float: left;
+    background-color: #328CC1;
+}
+
+main {
+    background-color: #fff;
+    position: relative;
+    padding: 20px;
+}
+
+nav {
+    height: 40px;
+    padding: 10px;
+    background-color: #1D2731;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+nav ul a {
+    font-family: "Berlin Sans FB", "sans-serif";
+    display: block;
+    width: 200px;
+    height: 30px;
+    text-decoration: none;
+    background: #0B3C5D;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+#logout {
+    float: right;
+}
+
+nav ul a:hover, nav ul a:active {
+    background: #0c4d73;
+    color: #d5d5d5;
+}
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+.content {
+    background-color: lightsteelblue;
+    display: none;
+    position: absolute;
+    width: 150px;
+    z-index: 10;
+}
+
+.content a{
+    text-decoration-color: black;
+    display: block;
+    padding: 10px;
+    border-bottom: white 2px;
+}
+
+.dropdown:hover .content{
+    display: block;
+}
+
+form * {
+    display: block;
+    clear: right;
+}
+
+input[type="submit"], input[type="reset"] {
+    display: inline;
+    width: 100px;
+}
+
+table {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 600px;
+    height: 250px;
+    overflow: scroll;
+}
+
+tr:nth-of-type(odd){
+    background-color: #dddcdf;
+}
+
+tr:nth-of-type(even) {
+    background-color: lightgray;
+}
+
+tr:first-child {
+    background-color:gray;
+}
+
+tr:hover:not(:first-child) {
+    background-color: lightblue;
+}
+
+#mapImage {
+    width: 300px;
+    height: 300px;
+}
+
+/*
+header {
+    font-family: "Bauhaus 93", "sans-serif";
+    background-color: dodgerblue;
+    color: white;
+}
+
+nav {
+    background: linear-gradient(dodgerblue, lightblue, dodgerblue);
+    height: 40px;
+   }
 
 nav a{
     font-family: "Berlin Sans FB", "sans-serif";
     font-size: 18px;
     padding: 5px 15px;
+    background-color: darkblue;
+    color: white;
+    height: 20px;
+    margin-top: 10px;
 }
 
 nav a:hover {
@@ -35,7 +189,10 @@ nav a:hover {
 }
 
 form {
-    margin: 20px;
+    margin: 0 auto;
+    width: 800px;
+    background-color: lightblue;
+    display: inline-block;
 }
 
 input {
@@ -45,9 +202,11 @@ input {
 }
 
 table {
+    display: inline-block;
     overflow: scroll;
 }
 
 tr:nth-of-type(odd){
     background-color: lightgray;
 }
+*/

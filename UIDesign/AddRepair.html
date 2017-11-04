@@ -8,35 +8,36 @@
 <body>
 	<header><h1>Add Repair</h1></header>
 	<nav>
-		<a>Home</a>
-		<a>My Schedule</a>
-		<div class="dropdown">
-			<a>Tours</a>
-			<div class="content">
-				<a>Add Public Tour</a>
-				<a>Add Private Tour</a>
-				<a>Remove Tours</a>
-				<a>View All</a>
-			</div>
-		</div>
-		<div class="dropdown">
-			<a>Repair</a>
-			<div class="content">
-				<a>Add Repair</a>
-				<a>Remove Repair</a>
-			</div>
-		</div>
-		<a>Logout</a>
+        <ul>
+            <li><a>Home</a></li>
+            <li><a>My Schedule</a></li>
+            <li  class="dropdown"><a>Tours</a>
+                <ul class="content">
+                    <li><a>Add Public Tour</a></li>
+                    <li><a>Add Private Tour</a></li>
+                    <li><a>Remove Tours</a></li>
+                    <li><a>View All</a></li>
+                </ul>
+            </li>
+            <li class="dropdown"><a>Repair</a>
+                <ul class="content">
+                    <li><a>Add Repair</a></li>
+                    <li><a>Remove Repair</a></li>
+                </ul>
+            </li>
+            <li id="logout"><a>Logout</a></li>
+        </ul>
 	</nav>
-	<div class="input">
+
+	<main>
 		<form>
-			Start Time:<br>
-			<input type="text" placeholder="- Enter Start Time"><br>
-			Bus ID:<br>
-			<input type="text" placeholder="- Enter Bus ID"><br>
+            <label for="startTime">Start Time:</label>
+			<input type="text" name="startTime" id="startTime" placeholder="- Enter Start Time"><br>
+            <label for="busID">Bus ID:</label>
+			<input type="text" name="busID" id="busID" placeholder="- Enter Bus ID"><br>
 			<input type="submit" value="Add">
 			<input type="reset" value="Cancel">
 		</form>
-	</div>
+	</main>
 </body>
 </html>

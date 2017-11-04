@@ -8,60 +8,63 @@
 <body>
 	<header><h1>Book Seats</h1></header>
 	<nav>
-		<a>Home</a>
-		<div class="dropdown">
-			<a>Tours</a>
-			<div class="content">
-				<a>Modify Tours</a>
-				<a>Private Tours</a>
-				<a>View My Tours</a>
-				<a>Book Seats</a>
-			</div>
-		</div>
-		<a>Logout</a>
+		<ul>
+			<li><a>Home</a></li>
+			<li class="dropdown"><a>Tours</a>
+				<ul class="content">
+					<li><a>Modify Tours</a></li>
+					<li><a>Private Tours</a></li>
+					<li><a>View My Tours</a></li>
+					<li><a>Book Seats</a></li>
+				</ul>
+			</li>
+			<li id="logout"><a>Logout</a></li>
+		</ul>
 	</nav>
-	<div class="input">
+	<main>
 		<form>
-			Date:<input type="date"><br>
-			Seats:<br>
-			<input type="text" placeholder="- Enter Number of Seats"><br>
-			Map:<br>
-			<img src="Map.PNG" width="300" height="300"><br>
+			<label for="date">Date:</label>
+			<input type="date" name="date" id="date">
+			<label for="numSeats">Seats:</label>
+			<input name="numSeats" id="numSeats" placeholder="- Enter Number of Seats">
+			<label for="mapImage">Map:</label>
+			<img src="Map.PNG" id="mapImage">
 			<input type="submit" value="Add">
 			<input type="reset" value="Cancel">
 		</form>
-	</div>
-	<table>
-		<tr>
-			<th>Tours</th>
-			<th>Start Time</th>
-			<th>Route ID</th>
-		</tr>
-		<tr>
-			<td>Tour 2</td>
-			<td>Time 2</td>
-			<td>Route ID 2</td>
-		</tr>
-		<tr>
-			<td>Tour 3</td>
-			<td>Time 3</td>
-			<td>Route ID 3</td>
-		</tr>
-		<tr>
-			<td>Tour 4</td>
-			<td>Time 4</td>
-			<td>Route ID 4</td>
-		</tr>
-		<tr>
-			<td>Tour 5</td>
-			<td>Time 5</td>
-			<td>Route ID 5</td>
-		</tr>
-		<tr>
-			<td>Tour 6</td>
-			<td>Time 6</td>
-			<td>Route ID 6</td>
-		</tr>
-	</table>
+
+		<table>
+				<tr>
+					<th>Tours</th>
+					<th>Start Time</th>
+					<th>Route ID</th>
+				</tr>
+				<tr>
+					<td>Tour 2</td>
+					<td>Time 2</td>
+					<td>Route ID 2</td>
+				</tr>
+				<tr>
+					<td>Tour 3</td>
+					<td>Time 3</td>
+					<td>Route ID 3</td>
+				</tr>
+				<tr>
+					<td>Tour 4</td>
+					<td>Time 4</td>
+					<td>Route ID 4</td>
+				</tr>
+				<tr>
+					<td>Tour 5</td>
+					<td>Time 5</td>
+					<td>Route ID 5</td>
+				</tr>
+				<tr>
+					<td>Tour 6</td>
+					<td>Time 6</td>
+					<td>Route ID 6</td>
+				</tr>
+			</table>
+	</main>
 </body>
 </html>
