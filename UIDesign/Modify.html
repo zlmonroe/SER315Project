@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>UI Design - Modify</title>
+	<link href="Style.css" rel="stylesheet">
+</head>
+<body>
+<header><h1>Modify Tour</h1></header>
+	<nav>
+		<ul>
+			<li class="dropdown"><a>Tours</a>
+				<ul class="content">
+					<li><a>Modify</a></li>
+					<li><a>Private Tours</a></li>
+					<li><a>View My Tours</a></li>
+					<li><a>Book Seats</a></li>
+				</ul>
+			</li>
+			<li><a>Logout</a></li>
+		</ul>
+	</nav>
+	<main>
+		<form>
+			<label for="startTime">Start Time:</label>
+			<input type="text" name="startTime" id="startTime" placeholder="- Enter Start Time"><br>
+			<label for="busID">Bus ID:</label>
+			<input type="text" name="busID" id="busID" placeholder="- Enter Bus ID"><br>
+			<label>Map:</label>
+			<img src="Map.PNG" id="mapImage">
+			<input type="submit" value="Add">
+			<input type="reset" value="Cancel">
+		</form>
+		<table>
+			<tr>
+				<th>Tours</th>
+				<th>Start Time</th>
+				<th>Route ID</th>
+			</tr>
+			<tr>
+				<td>Tour 2</td>
+				<td>Time 2</td>
+				<td>Route ID 2</td>
+				<td><button>edit</button></td>
+			</tr>
+			<tr>
+				<td><input type="text" placeholder="- Tour 2"></td>
+				<td><input type="text" placeholder="- Time 2"></td>
+				<td><input type="text" placeholder="- Route ID 2"></td>
+				<td><button>modify</button></td>
+			</tr>
+			<tr>
+				<td>Tour 4</td>
+				<td>Time 4</td>
+				<td>Route ID 4</td>
+				<td><button>edit</button></td>
+			</tr>
+			<tr>
+				<td>Tour 5</td>
+				<td>Time 5</td>
+				<td>Route ID 5</td>
+				<td><button>edit</button></td>
+			</tr>
+			<tr>
+				<td>Tour 6</td>
+				<td>Time 6</td>
+				<td>Route ID 6</td>
+				<td><button>edit</button></td>
+			</tr>
+		</table>
+	</main>
+</body>
+</html>
