@@ -29,6 +29,9 @@ header h1 {
     color: #D9B310;
 }
 
+#viewer {
+    float: right;
+}
 
 #leftNewsPanel {
     width: 300px;
