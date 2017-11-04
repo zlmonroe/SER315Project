@@ -2,9 +2,60 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Title</title>
+	<title>UI Design - Private Tour</title>
+	<link href="Style.css" rel="stylesheet">
 </head>
 <body>
-
+	<header><h1>Private Tour</h1></header>
+	<nav>
+		<ul>
+			<li><a>Home</a></li>
+			<li class="dropdown"><a>Tours</a>
+				<ul class="content">
+					<li><a>Modify</a></li>
+					<li><a>Private Tours</a></li>
+					<li><a>View My Tours</a></li>
+					<li><a>Book Seats</a></li>
+				</ul>
+			</li>
+			<li><a>Logout</a></li>
+		</ul>
+	</nav>
+	<main>
+		<form>
+			<label><strong><u>Tour Name:</u></strong></label>
+			<input type="text" placeholder="- Enter Tour Name">
+			<label><strong><u>Date:</u></strong></label>
+			<input type="text" placeholder="- Enter Start Time">
+			<label><strong><u>Estimated Cost:</u></strong></label>
+			<input type="text" placeholder="$Estimated cost displays here">
+			<input type="submit" value="Submit">
+			<input type="reset" value="Cancel">
+		</form>
+		<label><strong><u>Edit/Pick Tour Points:</u></strong></label><br>
+		<img src="Map.PNG" id="mapImage">
+		<table>
+			<tr>
+				<th>Tours</th>
+				<th>Start Time</th>
+				<th>Route ID</th>
+			</tr>
+			<tr>
+				<td>Tour 1</td>
+				<td>Time 1</td>
+				<td>Route ID 1</td>
+			</tr>
+			<tr>
+				<td>Tour 2</td>
+				<td>Time 2</td>
+				<td>Route ID 2</td>
+			</tr>
+			<tr>
+				<td>Tour 3</td>
+				<td>Time 3</td>
+				<td>Route ID 3</td>
+			</tr>
+		</table>
+	</main>
 </body>
 </html>

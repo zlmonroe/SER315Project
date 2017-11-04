@@ -6,7 +6,10 @@
 	<link href="Style.css" rel="stylesheet">
 </head>
 <body>
-	<header><h1>Add Repair</h1></header>
+	<header>
+        <h1>Add Repair</h1>
+        <h1 id="viewer">Scheduler View</h1>
+    </header>
 	<nav>
         <ul>
             <li><a>Home</a></li>
@@ -31,9 +34,9 @@
 
 	<main>
 		<form>
-            <label for="startTime">Start Time:</label>
+            <label for="startTime"><strong><u>Start Time:</u></strong></label>
 			<input type="text" name="startTime" id="startTime" placeholder="- Enter Start Time"><br>
-            <label for="busID">Bus ID:</label>
+            <label for="busID"><strong><u>Bus ID:</u></strong></label>
 			<input type="text" name="busID" id="busID" placeholder="- Enter Bus ID"><br>
 			<input type="submit" value="Add">
 			<input type="reset" value="Cancel">

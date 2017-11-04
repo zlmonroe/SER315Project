@@ -6,7 +6,10 @@
 	<link href="Style.css" rel="stylesheet">
 </head>
 <body>
-	<header><h1>Book Seats</h1></header>
+	<header>
+        <h1>Book Seats</h1>
+        <h1 id="viewer">Customer View</h1>
+    </header>
 	<nav>
 		<ul>
 			<li><a>Home</a></li>
@@ -23,21 +26,25 @@
 	</nav>
 	<main>
 		<form>
-			<label for="date">Date:</label>
+            <label for="date"><strong><u>Date:</u></strong></label>
 			<input type="date" name="date" id="date">
-			<label for="numSeats">Seats:</label>
+			<label for="numSeats"><strong><u>Seats:</u></strong></label>
 			<input name="numSeats" id="numSeats" placeholder="- Enter Number of Seats">
-			<label for="mapImage">Map:</label>
+			<label for="mapImage"><strong><u>Date:</u></strong></label>
 			<img src="Map.PNG" id="mapImage">
 			<input type="submit" value="Add">
 			<input type="reset" value="Cancel">
 		</form>
-
 		<table>
 				<tr>
 					<th>Tours</th>
 					<th>Start Time</th>
 					<th>Route ID</th>
+				</tr>
+                <tr>
+					<td>Tour 1</td>
+					<td>Time 1</td>
+					<td>Route ID 1</td>
 				</tr>
 				<tr>
 					<td>Tour 2</td>
