@@ -1,0 +1,53 @@
+header {
+    font-family: "Bauhaus 93";
+}
+
+nav a{
+    font-family: "Berlin Sans FB";
+    font-size: 18px;
+    padding: 5px 15px;
+}
+
+nav a:hover {
+    background-color: gray;
+}
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+.content {
+    background-color: lightsteelblue;
+    display: none;
+    position: absolute;
+    width: 150px;
+}
+
+.content a{
+    text-decoration-color: black;
+    display: block;
+    padding: 10px;
+}
+
+.dropdown:hover .content{
+    display: block;
+}
+
+form {
+    margin: 20px;
+}
+
+input {
+    align-content: center;
+    margin: 20px;
+    padding: 10px;
+}
+
+table {
+    overflow: scroll;
+}
+
+tr:nth-of-type(odd){
+    background-color: lightgray;
+}
