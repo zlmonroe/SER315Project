@@ -8,17 +8,23 @@
 <body>
 <header><h1>Travel Agency</h1></header>
 	<nav>
-		<a>Home</a>
-		<a>Sign Up</a>
+        <ul>
+            <li><a>Home</a></li>
+            <li><a>Sign Up</a></li>
+        </ul>
 	</nav>
-	<div class="input">
-		<form>
-			<label>Username:</label>
-			<input type="text" placeholder="- Username">
-			<label>Password:</label>
-			<input type="text" placeholder="- Password">
-			<input type="submit" value="Login"><input type="radio"> Remember Credentials
-		</form>
-	</div>
+    <main>
+        <div class="input">
+            <form>
+                <label for="username">Username:</label>
+                <input type="text" name="username" id="username" placeholder="- Username">
+                <label for="password">Password:</label>
+                <input type="text" name="password" id="password" placeholder="- Password">
+                <input type="submit" value="Login">
+                <label for="remember">Remember Credentials:</label>
+                <input type="checkbox" name="remember" id="remember">
+            </form>
+        </div>
+    </main>
 </body>
 </html>
