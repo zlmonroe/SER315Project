@@ -2,9 +2,72 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Title</title>
+	<title>UI Design - Private/Public</title>
+	<link href="Style.css" rel="stylesheet">
 </head>
 <body>
-
+	<header><h1>Private/Public Tours</h1></header>
+	<nav>
+		<ul>
+			<li><a>Home</a></li>
+			<li class="dropdown"><a>Tours</a>
+				<ul class="content">
+					<li><a>Add Public Tour</a></li>
+					<li><a>Add Private Tour</a></li>
+					<li><a>Remove Tours</a></li>
+					<li><a>View All</a></li>
+				</ul>
+			</li>
+			<li class="dropdown"><a>Repairs</a>
+				<ul class="content">
+					<li><a>Add Repair</a></li>
+					<li><a>Remove Repair</a></li>
+				</ul>
+			</li>
+		</ul>
+	</nav>
+	<main>
+		<form>
+			<label><strong><u>Tour Name:</u></strong></label>
+			<input type="text" placeholder="- Enter Tour Name">
+			<label><strong><u>Start Time:</u></strong></label>
+			<input type="text" placeholder="- Enter Start Time">
+			<label><strong><u>Estimated Cost:</u></strong></label>
+			<input type="text" placeholder="$ Estimated cost display here">
+			<label><strong><u>Type:</u></strong></label>
+			<select>
+				<option value="Private">Private</option>
+				<option value="Public">Public</option>
+			</select>
+			<input type="text" placeholder="- Choose Private or Public">
+			<label><strong><u>Edit/Pick Tour Points:</u></strong></label>
+			<img src="Map.PNG" id="mapImage">
+			<input type="submit" value="Submit">
+			<input type="reset" value="Cancel">
+		</form>
+		<table>
+			<caption><strong><u>My Old Routes:</u></strong></strong.></caption>
+			<tr>
+				<th>Tours</th>
+				<th>Start Time</th>
+				<th>Route ID</th>
+			</tr>
+			<tr>
+				<td>Tour 1</td>
+				<td>Time 1</td>
+				<td>Route ID 1</td>
+			</tr>
+			<tr>
+				<td>Tour 2</td>
+				<td>Time 2</td>
+				<td>Route ID 2</td>
+			</tr>
+			<tr>
+				<td>Tour 3</td>
+				<td>Time 3</td>
+				<td>Route ID 3</td>
+			</tr>
+		</table>
+	</main>
 </body>
 </html>
