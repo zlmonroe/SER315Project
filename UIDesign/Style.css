@@ -70,7 +70,7 @@ nav ul a {
 
 }
 
-#logout {
+.logout {
     float: right;
 }
 
@@ -106,6 +106,7 @@ nav ul a:hover, nav ul a:active {
 form * {
     display: block;
     clear: right;
+    margin: 5px;
 }
 
 input[type="submit"], input[type="reset"] {
@@ -115,8 +116,8 @@ input[type="submit"], input[type="reset"] {
 
 table {
     position: absolute;
-    top: 20px;
-    right: 20px;
+    top: 25px;
+    right: 25px;
     width: 600px;
     height: 250px;
     overflow: scroll;
