@@ -29,7 +29,7 @@ header h1 {
     color: #D9B310;
 }
 
-#viewer {
+.viewer {
     float: right;
 }
 
@@ -144,73 +144,8 @@ tr:hover:not(:first-child) {
     height: 300px;
 }
 
-/*
-header {
-    font-family: "Bauhaus 93", "sans-serif";
-    background-color: dodgerblue;
-    color: white;
+#calendar {
+    width: 1300px;
+    height: auto;
+    margin: auto;
 }
-
-nav {
-    background: linear-gradient(dodgerblue, lightblue, dodgerblue);
-    height: 40px;
-   }
-
-nav a{
-    font-family: "Berlin Sans FB", "sans-serif";
-    font-size: 18px;
-    padding: 5px 15px;
-    background-color: darkblue;
-    color: white;
-    height: 20px;
-    margin-top: 10px;
-}
-
-nav a:hover {
-    background-color: gray;
-}
-
-.dropdown {
-    display: inline-block;
-    position: relative;
-}
-
-.content {
-    background-color: lightsteelblue;
-    display: none;
-    position: absolute;
-    width: 150px;
-}
-
-.content a{
-    text-decoration-color: black;
-    display: block;
-    padding: 10px;
-}
-
-.dropdown:hover .content{
-    display: block;
-}
-
-form {
-    margin: 0 auto;
-    width: 800px;
-    background-color: lightblue;
-    display: inline-block;
-}
-
-input {
-    align-content: center;
-    margin: 20px;
-    padding: 10px;
-}
-
-table {
-    display: inline-block;
-    overflow: scroll;
-}
-
-tr:nth-of-type(odd){
-    background-color: lightgray;
-}
-*/

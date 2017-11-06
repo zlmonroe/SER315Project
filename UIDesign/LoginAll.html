@@ -6,19 +6,24 @@
 	<link href="Style.css" rel="stylesheet">
 </head>
 <body>
-<header><h1>Travel Agency</h1></header>
+    <header>
+        <h1>Travel Agency</h1>
+        <h1 class="viewer">User View</h1>
+    </header>
 	<nav>
-		<a>Home</a>
-		<a>Sign Up</a>
+		<ul>
+            <li><a>Home</a></li>
+            <li class="logout"><a>Sign Up</a></li>
+        </ul>
 	</nav>
-	<div class="input">
+	<main>
 		<form>
 			<label>Username:</label>
 			<input type="text" placeholder="- Username">
 			<label>Password:</label>
 			<input type="text" placeholder="- Password">
-			<input type="submit" value="Login"><input type="radio"> Remember Credentials
+			<input type="submit" value="Login"><input type="checkbox"> Remember Credentials
 		</form>
-	</div>
+	</main>
 </body>
 </html>
